@@ -4,21 +4,20 @@ module.exports = {
     commonjs: true,
     es6: true
   },
-  extends: ["standard"],
+  extends: ['standard'],
   globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly"
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
   parserOptions: {
     ecmaVersion: 2018
   },
   rules: {
-    "max-len": [
+    'max-len': [
       2,
       120,
       2,
       { ignoreStrings: true, ignoreTemplateLiterals: true }
-    ],
-    "space-before-function-paren": 0
+    ]
   }
-};
+}
